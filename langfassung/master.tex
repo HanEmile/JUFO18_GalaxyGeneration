@@ -1,0 +1,139 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage[top=1cm, bottom=2.5cm, left=1cm, right=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english,ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{lmodern}
+\usepackage{textcomp}
+
+\usepackage{tikz}
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks,
+citecolor=black,
+filecolor=black,
+linkcolor=black,
+urlcolor=black
+}
+
+\newcommand{\bold}{\textbf}
+\renewcommand{\arraystretch}{1.5}
+\newcommand{ \rarrow }{\( \rightarrow \)}
+
+\setlength\parindent{0pt}
+\setlength\parskip{10pt}
+\setlength{\footskip}{30pt}
+\setcounter{tocdepth}{3}
+
+%%% MAIN DOCUMENT BEGINS HERE %%%
+
+\begin{document}
+
+\title{Galaxy Stuff}
+\subtitle{Jugend Forscht \the\year}
+\author{ Emile Hansmaennel \texttt{ emile.hansmaennel@gmail.com }}
+\date{\today}
+
+\maketitle
+
+\input{docs/1_kurzfassung}
+
+\thispagestyle{empty}
+\clearpage
+\newpage
+\setcounter{page}{1}
+
+\tableofcontents
+\newpage
+
+\section{Einleitung} \label{Einleitung}
+\input{docs/2_einleitung}
+\newpage
+
+\section{Hauptteil} \label{Hauptteil}
+\subsection{Notes}
+
+\subsubsection{Todo}
+
+\begin{itemize}
+  \item Find a better way to kick out stars using a more efficient method
+  \item Find a way to generate a spiral with a curvature y of the arms
+  \item Compare the generated galaxies with real galaxies to find out if they
+  are legit
+  \item Generate the dark-matter, link the galaxies to the dark matter and watch
+  how the dark matter affects the galaxy while deforming the dark matter. 
+\end{itemize}
+
+\subsubsection{Generally building a galaxy}
+
+\begin{enumerate}
+  \item Generate the galaxy-data using the NFW-Profile or the Einasto-profile
+  \item Display the data in Blender and create an image using the OpenGL-renderer
+  \item Train a Neural Network (NN) to classify galaxies
+  \item Let the NN modify the galaxy to generate a perfect galaxy
+\end{enumerate}
+
+\subsubsection{Spiral Galaxy}
+
+\begin{itemize}
+  \item Generate the coordinates independently from each other:
+
+  \item Generate the spiral on the x/y plane:
+  \begin{itemize}
+    \item x / y: generate a spiral using the Polar coordinate system
+    \item z: generate the according z-value inddependently using the pythargoras
+    theorem to calculate the distance of a possible star from the center of the
+    galaxy, then continue by using the generated value inside of the NFW-profile
+    to find out if the star should be generated or not
+  \end{itemize}
+  \item Use the function to adapt the arms to real conditions
+\end{itemize}
+
+\subsubsection{Important aspects of spiral galaxies}
+
+\begin{itemize}
+  \item Thickness of the galaxy at the bulge in the middle
+  \item Radius
+  \begin{itemize}
+    \item of the entire galaxy
+    \item of the bulge in the middle
+  \end{itemize}
+  \item Number of arms
+  \item Density
+  \begin{itemize}
+    \item of the spiral arms
+    \item of the bulge in the middle
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Speed}
+
+\begin{itemize}
+  \item Manipulat the NFW-Profile (don't kick out so many stars!)
+  \item lookup-table for the random numbers
+  \item Amazon-Web-Services (AWS)?
+  \item PyPy
+  \item generally try to generate less galaxies further away ftom the center
+  so kicking out as many stars doesn't become problematic anymore.
+  (start with a linear function above the NFW-profile and kick out the remaining
+  stars to enhance the profile)
+\end{itemize}
+
+
+\input{docs/3_hauptteil}
+\newpage
+
+\section{Ergebnisse} \label{ergebnisse}
+\input{docs/4_ergebnisse}
+\newpage
+
+\section{Quellen und Hilfen} \label{quellen}
+\input{docs/5_quellen}
+
+\end{document}
