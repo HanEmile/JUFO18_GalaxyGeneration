@@ -5,6 +5,7 @@ import numpy as np
 import math
 import os
 import socket
+import time
 host = socket.gethostname()
 
 # variables
@@ -12,27 +13,17 @@ sigma = 200
 f_0 = 0.1
 R_s = 1e4
 
-# M..
-Mxx = 0
-Mxy = 8e-6
-Myy = 0
-
 # constants
 pi = math.pi
 e = math.e
 G = 4.302e-3
 
 # rho function
-def rho(x, y, z):
-    r = math.sqrt(x**2 + y**2 + z**2)
+def rho(r):
     a = (1) / (math.sqrt( 2 * pi ) * sigma )
     b = math.exp( - (phi(r) / sigma ** 2 ) )
     c = a * b
     return c
-
-def rho_new(x, y, z):
-    a = (1 - ((1) / (2 * (sigma ** 2))) * ( Mxx * x**2 + 2 * Mxy * x * y + Myy * y**2 ) )
-    return rho(x, y, z) * a
 
 # phi function
 def phi(x):
@@ -62,24 +53,33 @@ def gen_stars(stars):
     range_max = int(length)
 
     # define the rho range
-    rand_min = rho_new(0, 0, 0)
-    rand_max = rho_new(length, 0, 0)
+    rand_min = rho(0)
+    rand_max = rho(math.sqrt(length**2 + length**2))
 
     # create random stars
     for r in range(0, stars):
         x = np.random.uniform(range_min, range_max, size=1)
         y = np.random.uniform(range_min, range_max, size=1)
-        z = np.random.uniform(range_min, range_max, size=1)
         rand_val = np.random.uniform(rand_min, rand_max, size=1)
+        rho_xy = rho(math.sqrt(x**2 + y**2))
+
+        print("{:<20}{:<20}{:<20}{:<20}".format(str(x), str(y), str(rho_xy), str(rand_val)))
 
         # if the random value is smaller than the rho value, generate a star
-        if rand_val < rho(x, y, z):
+        if rand_val < rho_xy:
 
             # open a file to write to
             with open(path, "a") as data:
 
                 # write the data to the file
-                data.write(str(x).strip("[]") + "," + str(y).strip("[]") + "," + str(z).strip("[]") + "\n")
+                data.write(str(x).strip("[]") + "," + str(y).strip("[]") + "\n")
+                print(str(x) + ", " + str(y))
+
+    print("range_min: " + str(range_min))
+    print("range_max: " + str(range_max))
+
+    print("rand_min: " + str(rand_min))
+    print("rand_max: " + str(rand_max))
 
 # generate n stars
-gen_stars(5e7)
+gen_stars(1e5)
