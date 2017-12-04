@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from numpy import genfromtxt
 import numpy as np
 import math
@@ -44,8 +46,6 @@ def phi(x):
 
 def gen_stars(stars):
     stars = int(stars)
-
-    time_start = time.time()
 
     # lists
     listrho = []
