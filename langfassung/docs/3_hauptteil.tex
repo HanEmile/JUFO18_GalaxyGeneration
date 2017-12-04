@@ -43,14 +43,59 @@ Blender is Awesome, Python is Awesome and together they are
 
 \subsection{Making things faster}
 
-Kicking out to many Stars, 1 out of 10000 is just to much...
+\paragraph{ Kicking out to many Stars, 1 out of 10000 is just to much... }
+~\\
+
+\begin{itemize}
+  \item Use a custom Density function for each Axis
+  \begin{itemize}
+    \item \( \phi(r_x)\), \( \phi(r_y) \) and \( \phi(r_z) \)
+    \item more controll
+  \end{itemize}
+\end{itemize}
+
+\begin{tikzpicture}
+\begin{scope}
+
+    \node[draw] (H) at (0,-2)
+        {\( \phi(x_1) > rand_x \)};
+    \node[draw] (I) at (5,-2)
+        {\( \phi(y_1) > rand_y \)};
+    \node[draw] (J) at (10,-2)
+        {\( \phi(z_1) > rand_z \)};
+
+    \node[draw] (K) at (10, -4) {true};
+    \node[draw] (L) at (0, -4) {false};
+
+    \node[draw] (M) at (10, -6) {write data to data.csv};
+
+    \node[draw] (N) at (0, -6) {generate new random coordinates};
+
+\end{scope}
+
+\begin{scope} [every node/.style={fill=white,circle},
+              every edge/.style={draw=red,very thick}]
+
+    \path[->] (H) edge (K);
+    \path[->] (I) edge (K);
+    \path[->] (J) edge (K);
+    \path[->] (H) edge (L);
+    \path[->] (I) edge (L);
+    \path[->] (J) edge (L);
+
+    \path[->] (K) edge (M);
+    \path[->] (L) edge (N);
+
+\end{scope}
+
+\end{tikzpicture}
 
 \subsection{Spiral Galaxies}
 
 The previous Galaxy models where all using a completely spherical model, generating
 a spiral galaxy is just not possible using these models.
 
-\subsubsection{N-Körper problem}
+\subsubsection{N-body problem}
 
 Kurze Beschreibung des N-Körper Problems
 

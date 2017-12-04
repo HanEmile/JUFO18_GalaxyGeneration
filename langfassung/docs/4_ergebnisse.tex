@@ -22,6 +22,32 @@ Pro MegaByte können die Koordinaten von 10000 Sternen gespeichert werden.
 
 Die generierung von Spiralgalaxien gestaltet sich schweiriger als erwartet.
 
+\subsection{Lookup-Table Speed}
+
+\begin{tabular}{l | l | l}
+rho-values  & step  & time (in seconds) \\ \hline\hline
+1500000     & 1     & 8.07  \\
+750000      & 2     & 4.4   \\
+375000      & 4     & 2.26  \\
+187500      & 8     & 1.35  \\
+93750       & 16    & 0.76  \\
+\end{tabular}
+
+The correlation between the number of stars generated and the time needed ist
+clearly linear.
+
+\paragraph{Python script} ~\\
+\lstset{language=Python}
+\begin{lstlisting}[frame = single]
+import matplotlib.pyplot as plt
+
+list_time = [8.07, 4.4, 2.26, 1.35, 0.76]
+list_rho_values = [1500000, 750000, 375000, 187500, 93750]
+
+plt.plot(list_time, list_rho_values, '-ro')
+plt.show()
+\end{lstlisting}
+
 \subsection{Distortion of Galaxies}
 
 Galaxien verformen dinge

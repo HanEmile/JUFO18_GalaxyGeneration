@@ -13,11 +13,12 @@
 \BOOKMARK [2][-]{subsection.2.4}{Blender + Python}{section.2}% 13
 \BOOKMARK [2][-]{subsection.2.5}{Making things faster}{section.2}% 14
 \BOOKMARK [2][-]{subsection.2.6}{Spiral Galaxies}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.6.1}{N-K\366rper problem}{subsection.2.6}% 16
+\BOOKMARK [3][-]{subsubsection.2.6.1}{N-body problem}{subsection.2.6}% 16
 \BOOKMARK [3][-]{subsubsection.2.6.2}{Hilbert Spiral}{subsection.2.6}% 17
 \BOOKMARK [2][-]{subsection.2.7}{Gr\366\337eneinheiten}{section.2}% 18
 \BOOKMARK [1][-]{section.3}{Ergebnisse}{}% 19
 \BOOKMARK [2][-]{subsection.3.1}{Simulation Speed}{section.3}% 20
 \BOOKMARK [2][-]{subsection.3.2}{Spiral Galaxies}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.3}{Distortion of Galaxies}{section.3}% 22
-\BOOKMARK [1][-]{section.4}{Quellen und Hilfen}{}% 23
+\BOOKMARK [2][-]{subsection.3.3}{Lookup-Table Speed}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.4}{Distortion of Galaxies}{section.3}% 23
+\BOOKMARK [1][-]{section.4}{Quellen und Hilfen}{}% 24
