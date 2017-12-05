@@ -9,33 +9,6 @@ import time
 import matplotlib.pyplot as plt
 host = socket.gethostname()
 
-# variables
-sigma = 200
-f_0 = 0.1
-R_s = 1e4
-
-# constants
-pi = math.pi
-e = math.e
-G = 4.302e-3
-
-# rho function
-def rho(r):
-    a = (1) / (math.sqrt( 2 * pi ) * sigma )
-    b = math.exp( - (phi(r) / sigma ** 2 ) )
-    c = a * b
-    return c
-
-# phi function
-def phi(x):
-    if x == 0:
-        return -4 * pi * f_0 * G * R_s**2
-
-    a = - ( 4 * pi * G * f_0 * R_s ** 3 ) / x
-    b = np.log(1. + (x / R_s) )
-    c = a * b
-    return c
-
 listx = []
 listy = []
 
