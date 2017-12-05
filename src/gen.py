@@ -90,5 +90,4 @@ gen_stars(1e6)
 
 # plot the stars coordinates in 2D space
 plt.scatter(listx, listy)
-# plt.plot(listx, listy)
 plt.show()
