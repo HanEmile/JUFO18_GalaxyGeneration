@@ -6,6 +6,7 @@ import math
 import os
 import socket
 import time
+import matplotlib.pyplot as plt
 host = socket.gethostname()
 
 # variables
@@ -35,6 +36,9 @@ def phi(x):
     c = a * b
     return c
 
+listx = []
+listy = []
+
 def gen_stars(stars):
     stars = int(stars)
 
@@ -63,8 +67,6 @@ def gen_stars(stars):
         rand_val = np.random.uniform(rand_min, rand_max, size=1)
         rho_xy = rho(math.sqrt(x**2 + y**2))
 
-        print("{:<20}{:<20}{:<20}{:<20}".format(str(x), str(y), str(rho_xy), str(rand_val)))
-
         # if the random value is smaller than the rho value, generate a star
         if rand_val < rho_xy:
 
@@ -73,6 +75,8 @@ def gen_stars(stars):
 
                 # write the data to the file
                 data.write(str(x).strip("[]") + "," + str(y).strip("[]") + "\n")
+                listx.append(x)
+                listy.append(y)
                 print(str(x) + ", " + str(y))
 
     print("range_min: " + str(range_min))
@@ -82,4 +86,9 @@ def gen_stars(stars):
     print("rand_max: " + str(rand_max))
 
 # generate n stars
-gen_stars(1e5)
+gen_stars(1e6)
+
+# plot the stars coordinates in 2D space
+plt.scatter(listx, listy)
+# plt.plot(listx, listy)
+plt.show()
