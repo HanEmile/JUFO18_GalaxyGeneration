@@ -14,7 +14,7 @@ arr_saved_stars = np.zeros((int(nos), 3))
 
 # define various paths
 path = "data/rho6.csv"
-save_path = "stars/star19.csv"
+save_path = "stars/" + sys.argv[2]
 # star13 -> 586 stars
 
 # define the random-value range [rho_min; rho_max]
