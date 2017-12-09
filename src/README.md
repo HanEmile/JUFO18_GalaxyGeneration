@@ -17,9 +17,9 @@
 #### Generate the coordinates
 
 
-    $ ./coord.py <number of stars>
+    $ ./coord.py <number of stars> <save_to_file_location>
 
 
 #### Display the stars using Blender
 
-    $ blender --python view.py
+    $ blender --python view.py <star_coordinates_file>
