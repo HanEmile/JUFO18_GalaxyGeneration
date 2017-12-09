@@ -102,11 +102,12 @@ def main():
 
     time_all = whole_time + time_write_file
 
+    time_min = round(time_all / 60, 1)
+
     # print some stats
     print("")
     print("{:<30}{:<30}".format("Time (complete)", str(round(time_all, 4)) + " seconds"))
-    print("{:<30}{:<30}".format("Time (calculate stars)", str(round(whole_time, 4)) + " seconds"))
-    print("{:<30}{:<30}".format("Time (write to file)", str(round(time_write_file, 4)) + " seconds"))
+    print("{:<30}{:<30}".format("Time (complete)", str(round(time_min, 4)) + " minutes"))
     print("{:-<40}".format(""))
     print("{:<20}{:<20}".format("Number of Stars", str(nos)))
     print("{:<20}{:<20}".format("Stars Kicked:", str(stars_kicked)))
