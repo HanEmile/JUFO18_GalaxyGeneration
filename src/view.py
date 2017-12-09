@@ -6,7 +6,7 @@ import sys
 directory = "stars/"
 # # print(directory)
 #
-files = ["final_star15.csv"]
+files = [sys.argv[3]]
 
 # print("### \n\n")
 #
