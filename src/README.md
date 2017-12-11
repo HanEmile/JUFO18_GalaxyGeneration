@@ -1,5 +1,12 @@
 # README
 
+| Name                | Value                 |
+| ---                 | ---                   |
+| Time (hour min sec) | 1:30:45               |              
+| Number of Stars     | 1000                  |               
+| Stars Kicked:       | 327718674             |            
+| Percent:            | 0.000305139767531221% |
+
 ### workflow:
 
 ---
