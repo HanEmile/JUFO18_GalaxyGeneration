@@ -130,7 +130,7 @@ def main():
     d = "{:<20}{:<20}".format("Stars Kicked:", str(stars_kicked))
     e = "{:<20}{:<20}".format("Percent: ", str( nos / stars_kicked * 100 ) + "%")
 
-    f = a + "\n" + b "\n" + c + "\n" + d + "\n" + e
+    f = a + "\n" + b + "\n" + c + "\n" + d + "\n" + e
 
     call(["telegram-send", "--pre", str(f) ])
 
