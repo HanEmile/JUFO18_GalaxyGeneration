@@ -4,6 +4,7 @@
 import time
 import numpy as np
 import sys
+from subprocess import call
 
 # define the number of stars that should be generated
 nos = int(sys.argv[1])
@@ -13,8 +14,8 @@ arr_stars = np.zeros((int(nos), 3))
 arr_saved_stars = np.zeros((int(nos), 3))
 
 # define various paths
-path = "data/rho6.csv"
-save_path = "stars/" + sys.argv[2]
+path = "data/2e7.csv"
+save_path = "stars/" + sys.argv[2] + ".csv"
 # star13 -> 586 stars
 
 # define the random-value range [rho_min; rho_max]
@@ -53,12 +54,13 @@ def main():
 
             # calculate the distance of the star to the center of the galaxy
             r = np.sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2))
+            # print(round(int(r), 0))
 
             # generate a random value in the range [rand_min; rand_max]
             a = np.random.uniform(rand_min, rand_max, size=1)
 
             # read out the corresponding rho value from the lookuptable (rho-file)
-            b = float(rho_file[int(round(r[0], 0))].split(", ")[1].strip("\n"))
+            b = float(rho_file[round(int(r), 0)].split(", ")[1].strip("\n"))
 
             # print("{:<5}{:<20}{:<20}{:<20}{:<20}{:<20}{:<20}".format(str(stars_kept), str(x), str(y), str(z), str(a), str(b), str(r)))
 
@@ -83,7 +85,8 @@ def main():
     print("")
     end = time.time()
     whole_time = end - start
-    print(">> Finished generating stars in " + str(whole_time) + " seconds\n")
+    out = ">> Finished generating stars in " + str(whole_time) + " seconds\n"
+    print(out)
 
     # write the star coordinates to a file
     start_write_file = time.time()
@@ -98,7 +101,8 @@ def main():
 
     end_write_file = time.time()
     time_write_file = end_write_file - start_write_file
-    print(">> Finished writing star-data to " + save_path + " in " + str(round(time_write_file, 4)) + " seconds\n")
+    out = ">> Finished writing star-data to " + save_path + " in " + str(round(time_write_file, 4)) + " seconds\n"
+    print(out)
 
     time_all = whole_time + time_write_file
 
@@ -106,12 +110,29 @@ def main():
 
     # print some stats
     print("")
-    print("{:<30}{:<30}".format("Time (complete)", str(round(time_all, 4)) + " seconds"))
-    print("{:<30}{:<30}".format("Time (complete)", str(round(time_min, 4)) + " minutes"))
+    print("{:<20}{:<20}".format("Time (complete)", str(round(time_all, 4)) + " seconds"))
     print("{:-<40}".format(""))
     print("{:<20}{:<20}".format("Number of Stars", str(nos)))
     print("{:<20}{:<20}".format("Stars Kicked:", str(stars_kicked)))
     print("{:<20}{:<20}".format("Percent: ", str( nos / stars_kicked * 100 ) + "%"))
+
+    hour = int( time_all // 3600 )
+    time_all = time_all % 3600
+    minutes = int( time_all // 60 )
+    time_all = time_all % 60
+    seconds = int( time_all )
+
+    a = path
+
+    time_a = str(hour) + ":" + str(minutes) + ":" + str(seconds)
+    b = "{:<20}{:<20}".format("Time (h:m:s)", time_a )
+    c = "{:<20}{:<20}".format("Number of Stars", str(nos))
+    d = "{:<20}{:<20}".format("Stars Kicked:", str(stars_kicked))
+    e = "{:<20}{:<20}".format("Percent: ", str( nos / stars_kicked * 100 ) + "%")
+
+    f = a + "\n" + b "\n" + c + "\n" + d + "\n" + e
+
+    call(["telegram-send", "--pre", str(f) ])
 
 if __name__ == "__main__":
     main()
