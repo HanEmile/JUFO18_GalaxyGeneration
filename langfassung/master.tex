@@ -10,9 +10,18 @@
 \usepackage{caption}
 \usepackage{lmodern}
 \usepackage{textcomp}
+\usepackage[onehalfspacing]{setspace}
 
 \usepackage{tikz}
+\usetikzlibrary{positioning}
+
 \usepackage{listings}
+\lstset{ %
+  frame=single,	                   % adds a frame around the code
+  language=Python,                 % the language of the code
+  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+}
 
 \usepackage{hyperref}
 \hypersetup{
@@ -36,7 +45,7 @@ urlcolor=black
 
 \begin{document}
 
-\title{Galaxy Stuff}
+\title{Galaxy Generation}
 \subtitle{Jugend Forscht \the\year}
 \author{ Emile Hansmaennel \texttt{ emile.hansmaennel@gmail.com }}
 \date{\today}
@@ -58,75 +67,6 @@ urlcolor=black
 \newpage
 
 \section{Hauptteil} \label{Hauptteil}
-\subsection{Notes}
-
-\subsubsection{Todo}
-
-\begin{itemize}
-  \item Find a better way to kick out stars using a more efficient method
-  \item Find a way to generate a spiral with a curvature y of the arms
-  \item Compare the generated galaxies with real galaxies to find out if they
-  are legit
-  \item Generate the dark-matter, link the galaxies to the dark matter and watch
-  how the dark matter affects the galaxy while deforming the dark matter.
-\end{itemize}
-
-\subsubsection{Generally building a galaxy}
-
-\begin{enumerate}
-  \item Generate the galaxy-data using the NFW-Profile or the Einasto-profile
-  \item Display the data in Blender and create an image using the OpenGL-renderer
-  \item Train a Neural Network (NN) to classify galaxies
-  \item Let the NN modify the galaxy to generate a perfect galaxy
-\end{enumerate}
-
-\subsubsection{Spiral Galaxy}
-
-\begin{itemize}
-  \item Generate the coordinates independently from each other:
-
-  \item Generate the spiral on the x/y plane:
-  \begin{itemize}
-    \item x / y: generate a spiral using the Polar coordinate system
-    \item z: generate the according z-value inddependently using the pythargoras
-    theorem to calculate the distance of a possible star from the center of the
-    galaxy, then continue by using the generated value inside of the NFW-profile
-    to find out if the star should be generated or not
-  \end{itemize}
-  \item Use the function to adapt the arms to real conditions
-\end{itemize}
-
-\subsubsection{Important aspects of spiral galaxies}
-
-\begin{itemize}
-  \item Thickness of the galaxy at the bulge in the middle
-  \item Radius
-  \begin{itemize}
-    \item of the entire galaxy
-    \item of the bulge in the middle
-  \end{itemize}
-  \item Number of arms
-  \item Density
-  \begin{itemize}
-    \item of the spiral arms
-    \item of the bulge in the middle
-  \end{itemize}
-\end{itemize}
-
-\subsubsection{Speed}
-
-\begin{itemize}
-  \item Manipulat the NFW-Profile (don't kick out so many stars!)
-  \item lookup-table for the random numbers
-  \item Amazon-Web-Services (AWS)?
-  \item PyPy
-  \item generally try to generate less galaxies further away ftom the center
-  so kicking out as many stars doesn't become problematic anymore.
-  (start with a linear function above the NFW-profile and kick out the remaining
-  stars to enhance the profile)
-\end{itemize}
-
-
 \input{docs/3_hauptteil}
 \newpage
 

@@ -1,0 +1,13 @@
+def rho_new(x, y, z):
+  a = (1 - ((1) / (2 * (sigma ** 2))) * ( Mxx * x**2 + 2 * Mxy * x * y + Myy * y**2 ) )
+  return rho(x, y, z) * a
+
+# phi function
+def phi(x):
+  if x == 0:
+    return -4 * pi * f_0 * G * R_s**2
+
+  a = - ( 4 * pi * G * f_0 * R_s ** 3 ) / x
+  b = np.log(1. + (x / R_s) )
+  c = a * b
+  return c

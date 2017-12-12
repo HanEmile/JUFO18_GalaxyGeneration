@@ -1,66 +1,40 @@
-op
-Einleitung
+Nach meinem letzten Jugend-Forscht Projekt ergab sich die Möglichkeit ein
+Praktikum im Zentrum für Astronomie in Heidelberg zu absolvieren. Über die
+social-media Platform Reddit stellte ich den kontakt mit Tim Tugendkat her
+der zurzeit seinen PhD. in Physik an der Universität in Heidelberg macht.
+Dieser ermöglichte es mir, die Physikalische Fakultät an einer Uni mal genauer
+zu sehen und das täglich leben eines Physikers mitzuerleben.
+\par
+Während des Praktikums stellte ich fest das ich die im letzten Jahr erlerne Fähigkeit mit
+Python\footnote{Programmiersprache} zu Programmieren und mit
+Blender\footnote{3D Software Suite} umzugehen nutzen konnte um Galaxien
+darzustellen.
+Dies war insgesamt unglaublich Interessant und zeigte mir zum wiederholten mal:
+Projekte sind sehr dazu geeignet um sich in neues einzuarbeiten oder neues
+zu lernen und bieten einem ein Ziel welches man erreichen möchte was einem
+immer genügend motivation bietet weiterzumachen.
+\par
+Eine frage die ich mir öfters gestellt habe war warum man eigentlich Galaxien
+simuliert? Wäre es nicht einfacher einfach in den Himmel zu gucken und
+die bereits bestehenden Galaxien zu beobachten?
+Nach kurzer recherche lag die Antwort auf der Hand: Galaxien brauchen mehrere
+Millionen Jahre um sich zu entwickeln, also kann man ihre Entwicklung als
+normaler Mensch nicht in dem Umfang beobachten, um dann daraus schlüsse zu
+ziehen. Daher simuliert man die Galaxien und kann dann somit vorhersagen oder
+herrausfinden wie die Galaxien entstanden sind bzw. was mit ihnen passieren
+wird.
 
 \subsection{Themen}
 
 \begin{itemize}
-  \item Heidelberg bla
-  \item Galaxy Foo bla
-  \item Stauchen / Strecken bla
-  \item Problem: Geschwindigkeit bla
-  \item Benchmarks:
-  \begin{itemize}
-    \item 10000 Sterne - 1 Stern
-    \item ...
-  \end{itemize}
+  \item Generierung von Elliptischen Galaxien
+  \item Generierung von einem Dark-Matter Halo um die Elliptische Galaxie
+  \item Stauchung und Streckung des Dark-Matter mit beinflussung der eigentlichen Galaxie
+  \item Beschleunigung des generierungsprozesses mithilfe einer sogennanten ''lookup-table``
+  \item Aufbau eines neuronalen Netzes für die unbeaufsichtigte Generation von Galaxien
+  \item Generation von Spiralgalaxien
 \end{itemize}
 
 \subsection{Motivation}
 
-\paragraph{ \( \Phi \) }
-
-\begin{equation}
-  \Phi(r) = - \frac{4\pi G \rho_0 R_s^3}{r} \ln ( 1+ \frac{r}{R_s} )
-\end{equation}
-
-with the limits
-
-\begin{equation}
-  \lim_{r\to \infty} \Phi=0
-\end{equation}
-
-and
-
-\begin{equation}
-  \lim_{r\to 0} \Phi=-4\pi G\rho_0 R_s^2
-\end{equation}
-
-\paragraph{ \( \rho \) }
-
-\begin{equation}
-  \rho(r) = \frac{1}{\sqrt{2 \cdot \pi} \cdot \sigma} \cdot
-  e^{\left( - \frac{(\Phi(r)}{\sigma^{2}} \right)}
-\end{equation}
-
-\paragraph{\( \rho_{new} \rightarrow (deriviation) \) }
-
-\begin{equation}
-  \rho(r) \cdot 1-\frac{1}{(2 \cdot sigma^{2} )} \cdot
-  ( Mxx \cdot x^{2} + 2 \cdot Mxy \cdot xy + Myy \cdot y^{2} ))
-\end{equation}
-
-% def rho_new(x, y, z):
-%     a = (1 - ((1) / (2 * (sigma ** 2))) * ( Mxx * x**2 + 2 * Mxy * x * y + Myy * y**2 ) )
-%     return rho(x, y, z) * a
-%
-% # phi function
-% def phi(x):
-%     if x == 0:
-%         return -4 * pi * f_0 * G * R_s**2
-%
-%     a = - ( 4 * pi * G * f_0 * R_s ** 3 ) / x
-%     b = np.log(1. + (x / R_s) )
-%     c = a * b
-%     return c
-
-Motivations blah
+Ich habs einfach mal getan...
