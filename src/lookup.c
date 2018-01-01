@@ -31,7 +31,7 @@ int main(int argc, char *argv[] ){
     int x = atoi(argv[1]);
 
     for(int i = 0; i < x; i++){
-      fprintf(fp, "%d, %f\n", i, phi(i));
+      printf("%d, %f\n", i, phi(i));
     }
 
     // for(int i = 0; i < 1e7; i = i + 1e4){
