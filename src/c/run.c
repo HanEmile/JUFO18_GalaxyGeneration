@@ -32,13 +32,17 @@ int main(int argc, char *argv[] ){
 
   // define an array to store the coordinates of the stars in
 
-  FILE * st = fopen("stars/1.csv", "w+");
+  char *star_file = "stars/1.csv";
+  FILE * st = fopen(star_file, "w+");
 
   /*
     Generate random coordinates
   */
 
   printf(">>> Generating %d random coordinates\n", num_of_stars);
+
+  printf("  -> Writing data to '%s'\n", star_file);
+
 
   // generate the random coordinates
   for(int i = 0; i < num_of_stars; i++){
@@ -63,14 +67,13 @@ int main(int argc, char *argv[] ){
   */
 
   printf(">>> Generating a lookuptable\n");
+  char *filename = "testFile.csv";
 
   // If the correct amount (2) of command line arguments are given, continue
   if( argc == 2 ) {
 
     // Print out how many stars are being generated
     printf("  -> Generating %d Values...\n", num_of_stars);
-
-    char *filename = "testFile.csv";
 
     printf("  -> Writing data to '%s'\n", filename);
 
@@ -84,7 +87,7 @@ int main(int argc, char *argv[] ){
     }
 
     // generate the lookuptable
-    for(int i = 0; i < num_of_stars; i++){
+    for(int i = 0; i < range_max; i = i + (range_max) / num_of_stars){
       fprintf(fp, "%d, %f\n", i, phi(i));
     }
 
