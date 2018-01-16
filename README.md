@@ -15,6 +15,38 @@ data using [Python](https://python.org) so the second part can visualize it in
 
 ---
 
+### HowTo:
+
+- Generate the Lookup table:
+
+
+    $ ./lookup <where_to_save> <nr_of_stars>
+
+    Example:
+
+    $ ./lookup 42 1e7
+
+
+- Generate the Coordinates:
+
+
+    $ ./coord <nr_of_stars> <where_to_save>
+
+    Example
+
+    $ ./coord.py 1000 11
+
+- Display the Stars using Blender:
+
+
+    $ blender --python view.py -- <star_data_location>
+
+    Example
+
+    $ blender --python view.py -- 11
+
+---
+
 ### Benchmarks (03.12.17)
 
 
@@ -29,6 +61,13 @@ data using [Python](https://python.org) so the second part can visualize it in
 | Nr. of stars | Nr. of stars knocked out |
 | --- | --- |
 | 1e9 | ~ 45000 |
+
+| Name                  | Value                 |
+| ---                   | ---                   |
+| Time (hour min sec)   | 1:30:45               |
+| Number of Stars       | 1000                  |
+| Stars Kicked:         | 327718674             |
+| Percent:              | 0.000305139767531221% |
 
 ##### File sizes
 | Filesize | Nr. of Stars |
