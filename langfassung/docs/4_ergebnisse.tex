@@ -1,31 +1,24 @@
-Ergebnisse
+\subsection{Simulations Geschwindigkeit}
 
-\subsection{Simulation Speed}
+Insgesamt bin ich zu folgenden Ergebnissen zusammengekommen:
 
-Nach mergen des speed-branches sind folgende Ergebnisse zusammengekommen:
+\begin{itemize}
+  \item
+  \begin{tabular}{l | l | l}
 
-\begin{tabular}{l | l | l}
+    Sterne  & Zeit (30.10.2017)  & Zeit (\today) \\ \hline\hline
+    45000     & ca. 9h            & ca. 4h \\
+  \end{tabular}
 
-Sterne  & Zeit Vorher   & Zeit Nachher \\ \hline\hline
-1e5     & 2.93 sek.     & k.A. \\
-1e6     & 29.38 sek.    & k.A. \\
-1e7     & 315.67 sek.   & k.A. \\
-1e9     & 9h            & k.A. \\
+  \item Pro MegaByte können die Koordinaten von 10000 Sternen gespeichert werden.
 
-\end{tabular}
+  \item Die Nutzung von Lookuptabellen ist unglaublich sinnvoll
+\end{itemize}
 
-Aus 1e9 Sternen werden vorher letztendlich 45000 Sterne generiert.
-
-Pro MegaByte können die Koordinaten von 10000 Sternen gespeichert werden.
-
-\subsection{Spiral Galaxies}
-
-Die generierung von Spiralgalaxien gestaltet sich schweiriger als erwartet.
-
-\subsection{Lookup-Table Speed}
+\subsection{Lookuptabellen Geschwindigkeit}
 
 \begin{tabular}{l | l | l}
-rho-values  & step  & time (in seconds) \\ \hline\hline
+Rho-werte  & Schrittweite & Zeit zum einlesen (in sekunden) \\ \hline\hline
 1500000     & 1     & 8.07  \\
 750000      & 2     & 4.4   \\
 375000      & 4     & 2.26  \\
@@ -33,21 +26,16 @@ rho-values  & step  & time (in seconds) \\ \hline\hline
 93750       & 16    & 0.76  \\
 \end{tabular}
 
-The correlation between the number of stars generated and the time needed ist
-clearly linear.
+Hier ist klar zu sehen, dass es eine lineare korrelation zwischen der Anzahl
+an generierten Werten und der Zeit gibt.
 
-\paragraph{Python script} ~\\
-\lstset{language=Python}
-\begin{lstlisting}[frame = single]
-import matplotlib.pyplot as plt
+\subsection{Fazit}
 
-list_time = [8.07, 4.4, 2.26, 1.35, 0.76]
-list_rho_values = [1500000, 750000, 375000, 187500, 93750]
-
-plt.plot(list_time, list_rho_values, '-ro')
-plt.show()
-\end{lstlisting}
-
-\subsection{Distortion of Galaxies}
-
-Galaxien verformen dinge
+Insgesamt betrachtet kann ich behaupten das das Projekt ein voller Erfolg war:
+Ich habe unglaublich viele neue sachen gelernt und dabei ein Funktionierendes
+Program zur visualisierung von Galaxien und DUnkler Materie Gebaut. Dabei bekam
+ich einblicke in die verschiedensten Teilgebiete der Physik, AstroPhysik, Matematik
+und Informatik. Viele dieser Themen konnte ich jedoch aufgrund ihrer Komplexität
+nur in geringen maßen nutzen, weshalb ich mich in der Zukunft gerne damit
+auseinander setzen würde. Ein Beispiel hierfür sind die Neuronalen Netze welche
+ein enormes Potential haben welches ich unbedingt nutzen möchte.

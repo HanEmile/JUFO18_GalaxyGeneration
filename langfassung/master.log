@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.3)  12 DEC 2017 20:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.12.3)  14 JAN 2018 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -32,15 +32,15 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 136.
-Package scrartcl Info: You've used standard option `12pt'.
+Package scrartcl Info: You've used standard option `10pt'.
 (scrartcl)             This is correct!
-(scrartcl)             Internally I'm using `fontsize=12pt'.
+(scrartcl)             Internally I'm using `fontsize=10pt'.
 (scrartcl)             If you'd like to set the option with \KOMAoptions,
-(scrartcl)             you'd have to use `fontsize=12pt' there
-(scrartcl)             instead of `12pt', too.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2080.
- (/usr/share/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (12pt)
+(scrartcl)             you'd have to use `fontsize=10pt' there
+(scrartcl)             instead of `10pt', too.
+Class scrartcl Info: File `scrsize10pt.clo' used to setup font sizes on input line 2080.
+ (/usr/share/texmf-dist/tex/latex/koma-script/scrsize10pt.clo
+File: scrsize10pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (10pt)
 ) (/usr/share/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2017/09/07 v3.24 KOMA-Script package (type area)
 \ta@bcor=\skip42
@@ -56,21 +56,21 @@ Package typearea Info: You've used standard option `a4paper'.
 \ta@temp=\skip45
 \footheight=\skip46
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 12
+(typearea)             DIV  = 8
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 448.13095pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 2.4185pt
-(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)              \textwidth      = 373.44246pt
+(typearea)              DIV departure   = -4%
+(typearea)              \evensidemargin = 39.76274pt
+(typearea)              \oddsidemargin  = 39.76274pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 635.5pt
-(typearea)              \topmargin      = -41.72441pt
-(typearea)              \headheight     = 18.125pt
-(typearea)              \headsep        = 21.75pt
-(typearea)              \topskip        = 12.0pt
-(typearea)              \footskip       = 50.75pt
-(typearea)              \baselineskip   = 14.5pt
+(typearea)              \textheight     = 538.0pt
+(typearea)              \topmargin      = 0.36087pt
+(typearea)              \headheight     = 15.0pt
+(typearea)              \headsep        = 18.0pt
+(typearea)              \topskip        = 10.0pt
+(typearea)              \footskip       = 42.0pt
+(typearea)              \baselineskip   = 12.0pt
 (typearea)              on input line 1686.
 )
 \c@part=\count80
@@ -1060,31 +1060,31 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
  (./master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 49.
  (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 46.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 49.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1096,23 +1096,23 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 540.60239pt, 28.45274pt)
-* v-part:(T,H,B)=(28.45274pt, 745.46222pt, 71.13188pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 717.00946pt, 56.9055pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=540.60239pt
-* \textheight=745.46222pt
-* \oddsidemargin=-43.81725pt
-* \evensidemargin=-43.81725pt
-* \topmargin=-83.69225pt
-* \headheight=18.125pt
-* \headsep=21.75pt
-* \topskip=12.0pt
+* \textwidth=455.24411pt
+* \textheight=717.00946pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-34.1381pt
+* \headheight=15.0pt
+* \headsep=18.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=49.79233pt
+* \marginparwidth=74.68849pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1123,7 +1123,7 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 46.
+Package hyperref Info: Link coloring ON on input line 49.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1131,9 +1131,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
  (./master.out) (./master.out)
 \@outlinefile=\write4
 \openout4 = `master.out'.
@@ -1168,76 +1168,80 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 \c@lstlisting=\count150
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 57.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 54.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
  (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 54.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
  (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 54.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
  (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 54.
+(Font)              <14.4> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 54.
+(Font)              <10> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 54.
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 54.
+(Font)              <7> on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 57.
  (/usr/share/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) (./docs/1_kurzfassung.tex)
+)
+<figs/galaxy.png, id=115, 866.23625pt x 790.955pt>
+File: figs/galaxy.png Graphic file (type png)
+<use figs/galaxy.png>
+Package pdftex.def Info: figs/galaxy.png  used on input line 60. on input line 60.
+Package pdftex.def Info: Requested size: 341.43306pt x 121.10544pt on input line 60.
+ (./docs/1_kurzfassung.tex)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 70.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 70.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./master.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/galaxy.png>] (./master.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <5> on input line 3.
 )
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 75.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 63.
+(babel)             in language append on input line 75.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \newpage
+l.75 \newpage
               [1
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 65.
+(babel)             in language append on input line 77.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 65.
+(babel)             in language append on input line 77.
  (./docs/2_einleitung.tex
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <8> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <6> on input line 9.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language append on input line 27.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1252,215 +1256,266 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language append on input line 38.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 79.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 67.
+(babel)             in language append on input line 79.
  [2]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 69.
+(babel)             in language append on input line 81.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 69.
+(babel)             in language append on input line 81.
  (./docs/3_hauptteil.tex
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 18.
+(babel)             in language append on input line 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 19.
+(babel)             in language append on input line 2.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 19.
+(babel)             in language append on input line 2.
+File: figs/galaxy.png Graphic file (type png)
+<use figs/galaxy.png>
+Package pdftex.def Info: figs/galaxy.png  used on input line 57. on input line 57.
+Package pdftex.def Info: Requested size: 341.43307pt x 311.75397pt on input line 57.
+<figs/lookup_table_rho_r_function_grid.png, id=174, 683.55376pt x 444.66125pt>
+File: figs/lookup_table_rho_r_function_grid.png Graphic file (type png)
+<use figs/lookup_table_rho_r_function_grid.png>
+Package pdftex.def Info: figs/lookup_table_rho_r_function_grid.png  used on input line 64. on input line 64.
+Package pdftex.def Info: Requested size: 341.43307pt x 222.11295pt on input line 64.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 47.
+(babel)             in language append on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 47.
+(babel)             in language append on input line 73.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 82.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 90.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 90.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 90.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 90.
+(babel)             in language append on input line 84.
  [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 95.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 95.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 129.
+(babel)             in language append on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 129.
+(babel)             in language append on input line 84.
+ [4 <./figs/lookup_table_rho_r_function_grid.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 85.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 143.
+(babel)             in language append on input line 85.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 148.
+(babel)             in language append on input line 96.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 148.
+(babel)             in language append on input line 96.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 148.
+(babel)             in language append on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 148.
- [4]
+(babel)             in language append on input line 141.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 151.
+(babel)             in language append on input line 141.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 151.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 160.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 160.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 168.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 168.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 180.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 180.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 180.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 180.
+(babel)             in language append on input line 141.
  [5]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 181.
+(babel)             in language append on input line 149.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 181.
+(babel)             in language append on input line 149.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 182.
+(babel)             in language append on input line 177.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 182.
+(babel)             in language append on input line 177.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 267.
+(babel)             in language append on input line 202.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 299.
+(babel)             in language append on input line 202.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 299.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 299.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 299.
+(babel)             in language append on input line 202.
  [6]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 299.
+(babel)             in language append on input line 206.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 299.
+(babel)             in language append on input line 206.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 300.
+(babel)             in language append on input line 217.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 302.
+(babel)             in language append on input line 228.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 302.
-)
+(babel)             in language append on input line 228.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 71.
+(babel)             in language append on input line 258.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 71.
+(babel)             in language append on input line 258.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 71.
+(babel)             in language append on input line 265.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 71.
+(babel)             in language append on input line 265.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 265.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 265.
  [7]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 73.
+(babel)             in language append on input line 266.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 73.
- (./docs/4_ergebnisse.tex
+(babel)             in language append on input line 266.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 267.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 3.
+(babel)             in language append on input line 267.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 358.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 21.
+(babel)             in language append on input line 358.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 25.
+(babel)             in language append on input line 358.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 25.
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
-
- []
-
+(babel)             in language append on input line 358.
+ [8]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 44.
+(babel)             in language append on input line 502.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 44.
+(babel)             in language append on input line 502.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 44.
+(babel)             in language append on input line 517.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 44.
-[8]
+(babel)             in language append on input line 517.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 51.
+(babel)             in language append on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 51.
-)
+(babel)             in language append on input line 536.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 75.
+(babel)             in language append on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 75.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 75.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 75.
+(babel)             in language append on input line 536.
  [9]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 77.
+(babel)             in language append on input line 585.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 77.
+(babel)             in language append on input line 585.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 593.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 593.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 597.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 597.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 597.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 597.
+ [10]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 628.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 628.
+<figs/spiralgalaxy.png, id=270, 1927.2pt x 1084.05pt>
+File: figs/spiralgalaxy.png Graphic file (type png)
+<use figs/spiralgalaxy.png>
+Package pdftex.def Info: figs/spiralgalaxy.png  used on input line 635. on input line 635.
+Package pdftex.def Info: Requested size: 341.43307pt x 192.0439pt on input line 635.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 83.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 83.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 83.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 83.
+ [11]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 85.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 85.
+ (./docs/4_ergebnisse.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 1.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 18.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 18.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 32.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 32.
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 87.
+ [12 <./figs/spiralgalaxy.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 87.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 87.
+ [13]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language append on input line 89.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language append on input line 89.
  (./docs/5_quellen.tex)
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 92.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language append on input line 80.
- [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
+(babel)             in language append on input line 92.
+ [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 94.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 94.
  (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 94.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 94.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 0F9343953B59FFCCFE88B15C0388F5A7;1935.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+(rerunfilecheck)             Checksum: 956AC88F58D9927F9BF977E0077E98DA;2051.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 94.
  ) 
 Here is how much of TeX's memory you used:
- 22872 strings out of 492985
- 411810 string characters out of 6138638
- 593860 words of memory out of 5000000
- 25957 multiletter control sequences out of 15000+600000
- 53762 words of font info for 47 fonts, out of 8000000 for 9000
+ 22857 strings out of 492985
+ 411648 string characters out of 6138638
+ 589833 words of memory out of 5000000
+ 25926 multiletter control sequences out of 15000+600000
+ 42652 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,8n,69p,8882b,1852s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,11n,69p,8886b,1938s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist, replaced by a fixed one
+
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/
-texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on master.pdf (11 pages, 288544 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share
+/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on master.pdf (15 pages, 578877 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
- 77 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 336 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 250 words of extra memory for PDF output out of 10000 (max. 10000000)
 

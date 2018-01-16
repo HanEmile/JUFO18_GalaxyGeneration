@@ -3,31 +3,34 @@
 \contentsline {subsection}{\numberline {1.1}Themen}{2}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Motivation}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}Hauptteil}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Generierung der Elliptischen Galaxien}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Generierung von elliptischen Galaxien}{3}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Das Navarro-Frenk-White Profil}{3}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Random Sampling}{3}{subsubsection.2.1.2}
-\contentsline {subsection}{\numberline {2.2}Generierung eines Dunkle-Materie Halos}{3}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Anpassung des NFW-Profils}{4}{subsubsection.2.2.1}
-\contentsline {subsection}{\numberline {2.3}Stauchung und Streckung der Galaxie}{4}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Beschleunigung der Generierung}{5}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}n-Sterne}{5}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Lookuptable}{5}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Weitere Optimierungen}{5}{subsubsection.2.4.3}
-\contentsline {paragraph}{\nonumberline Nichts in der Konsole ausgeben:}{5}{section*.2}
-\contentsline {paragraph}{\nonumberline ...}{5}{section*.3}
-\contentsline {subsection}{\numberline {2.5}Nutzung eines Neuronalen Netzes zum unbeaufsichtigeten generieren}{6}{subsection.2.5}
-\contentsline {subsubsection}{\numberline {2.5.1}Aufbau des Neuronalen Netzes}{6}{subsubsection.2.5.1}
-\contentsline {subsubsection}{\numberline {2.5.2}Nutzung eines Neuronalen Netztes zur verbesserung von Galaxien Simulationen}{6}{subsubsection.2.5.2}
-\contentsline {subsection}{\numberline {2.6}Spiralgalaxien}{7}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Das n-K\IeC {\"o}rper Problem}{7}{subsubsection.2.6.1}
-\contentsline {subsection}{\numberline {2.7}Gr\IeC {\"o}\IeC {\ss }eneinheiten}{7}{subsection.2.7}
-\contentsline {section}{\numberline {3}Ergebnisse}{8}{section.3}
-\contentsline {subsection}{\numberline {3.1}Simulation Speed}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Spiral Galaxies}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Lookup-Table Speed}{8}{subsection.3.3}
-\contentsline {paragraph}{\nonumberline Python script}{8}{section*.4}
-\contentsline {subsection}{\numberline {3.4}Distortion of Galaxies}{9}{subsection.3.4}
-\contentsline {section}{\numberline {4}Quellen und Hilfen}{10}{section.4}
-\contentsline {paragraph}{\nonumberline Herrn J\IeC {\"o}rg Thar}{10}{section*.6}
-\contentsline {paragraph}{\nonumberline Konstantin Bosbach}{10}{section*.7}
-\contentsline {paragraph}{\nonumberline Tilman Hoffbauer}{10}{section*.8}
+\contentsline {subsubsection}{\numberline {2.1.2}Random Sampling}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Lookup Tabellen}{5}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Generierung eines Dunkle-Materie Halos durch Anpassung des NFW-Profils}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Stauchung und Streckung der Galaxie}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Rechenaufwand}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Beschleunigung der Generation}{7}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Lookuptable}{7}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Mehr Rechenleistung!}{7}{subsubsection.2.5.2}
+\contentsline {paragraph}{\nonumberline Amazon Web Services}{7}{section*.5}
+\contentsline {subsubsection}{\numberline {2.5.3}Nichts in der Konsole ausgeben}{8}{subsubsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6}Nutzung eines neuronalen Netzes zum unbeaufsichtigten generieren von Galaxien}{8}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Aufbau des neuronalen Netzes}{8}{subsubsection.2.6.1}
+\contentsline {paragraph}{\nonumberline Neuronen und Synapsen}{8}{section*.6}
+\contentsline {subsection}{\numberline {2.7}Spiralgalaxien}{9}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Das n-K\IeC {\"o}rper Problem}{9}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Unterteilung des Vektorraumes in verschiedene Zellen}{10}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Berechnung der wirkenden Kr\IeC {\"a}fte}{11}{subsubsection.2.7.3}
+\contentsline {paragraph}{\nonumberline Masse der Sterne}{11}{section*.7}
+\contentsline {paragraph}{\nonumberline Abstand der Sterne}{11}{section*.8}
+\contentsline {subsection}{\numberline {2.8}Weiteres}{11}{subsection.2.8}
+\contentsline {section}{\numberline {3}Ergebnisse}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Simulations Geschwindigkeit}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Lookuptabellen Geschwindigkeit}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Fazit}{13}{subsection.3.3}
+\contentsline {section}{\numberline {4}Quellen und Hilfen}{14}{section.4}
+\contentsline {paragraph}{\nonumberline Herrn J\IeC {\"o}rg Thar}{14}{section*.11}
+\contentsline {paragraph}{\nonumberline Tim Tugendhat}{14}{section*.12}
+\contentsline {paragraph}{\nonumberline Konstantin Bosbach}{14}{section*.13}
+\contentsline {paragraph}{\nonumberline Tilman Hoffbauer}{14}{section*.14}

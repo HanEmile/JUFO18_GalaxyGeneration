@@ -1,5 +1,5 @@
-\documentclass[a4paper,12pt]{scrartcl}
-\usepackage[top=1cm, bottom=2.5cm, left=1cm, right=1cm]{geometry}
+\documentclass[a4paper,10pt]{scrartcl}
+\usepackage[top=2.5cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[english,ngerman]{babel}
 \usepackage{amsmath}
@@ -11,6 +11,9 @@
 \usepackage{lmodern}
 \usepackage{textcomp}
 \usepackage[onehalfspacing]{setspace}
+\usepackage{setspace}
+
+% \linespread{0.95}
 
 \usepackage{tikz}
 \usetikzlibrary{positioning}
@@ -52,7 +55,16 @@ urlcolor=black
 
 \maketitle
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=120mm, trim={0 8.5cm 0 8.5cm}, clip]{figs/galaxy}
+  \captionsetup{labelformat=empty}
+  \caption{}
+ \end{figure}
+
+\begin{abstract}
 \input{docs/1_kurzfassung}
+\end{abstract}
 
 \thispagestyle{empty}
 \clearpage
@@ -76,5 +88,7 @@ urlcolor=black
 
 \section{Quellen und Hilfen} \label{quellen}
 \input{docs/5_quellen}
+
+\newpage
 
 \end{document}
