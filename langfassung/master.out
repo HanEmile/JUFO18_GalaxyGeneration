@@ -25,3 +25,21 @@
 \BOOKMARK [2][-]{subsection.3.2}{Lookuptabellen Geschwindigkeit}{section.3}% 25
 \BOOKMARK [2][-]{subsection.3.3}{Fazit}{section.3}% 26
 \BOOKMARK [1][-]{section.4}{Quellen und Hilfen}{}% 27
+\BOOKMARK [1][-]{section.5}{Nach der Abgabe...}{}% 28
+\BOOKMARK [2][-]{subsection.5.1}{Spiralgalaxien}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.2}{Using Object Oriented Programming \(OOP\) techniques}{section.5}% 30
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Initialisation}{subsection.5.2}% 31
+\BOOKMARK [2][-]{subsection.5.3}{Generation of new stars}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.4}{Printing all the coordinates}{section.5}% 33
+\BOOKMARK [2][-]{subsection.5.5}{Calculating the Forces acting between the Stars}{section.5}% 34
+\BOOKMARK [2][-]{subsection.5.6}{Calculating the forces acting between each star in the galaxy and each other star}{section.5}% 35
+\BOOKMARK [2][-]{subsection.5.7}{Printing all the individual forces}{section.5}% 36
+\BOOKMARK [2][-]{subsection.5.8}{Spherical cells}{section.5}% 37
+\BOOKMARK [3][-]{subsubsection.5.8.1}{Testing if a point is inside or outside a sphere}{subsection.5.8}% 38
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Testing if a star is inside or outside of a sphere for a whole galaxy}{subsection.5.8}% 39
+\BOOKMARK [3][-]{subsubsection.5.8.3}{Generate the position of the spheres}{subsection.5.8}% 40
+\BOOKMARK [3][-]{subsubsection.5.8.4}{The radius of the spheres}{subsection.5.8}% 41
+\BOOKMARK [3][-]{subsubsection.5.8.5}{Calculate the forces acting on the spheres}{subsection.5.8}% 42
+\BOOKMARK [3][-]{subsubsection.5.8.6}{Calculate the forces acting on all the spheres together}{subsection.5.8}% 43
+\BOOKMARK [3][-]{subsubsection.5.8.7}{Benchmarks}{subsection.5.8}% 44
+\BOOKMARK [2][-]{subsection.5.9}{Calculate the Position of a Star after a timestep}{section.5}% 45
