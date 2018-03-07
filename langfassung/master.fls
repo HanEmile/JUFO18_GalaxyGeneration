@@ -311,11 +311,16 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmtt8.tfm
 INPUT figs/sphere_alignment_cc.jpg
 INPUT ./figs/sphere_alignment_cc.jpg
 INPUT ./figs/sphere_alignment_cc.jpg
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmri10.tfm
+INPUT /usr/share/texmf-dist/tex/latex/lm/omllmr.fd
+INPUT /usr/share/texmf-dist/tex/latex/lm/omllmr.fd
+INPUT /usr/share/texmf-dist/tex/latex/lm/omslmr.fd
+INPUT /usr/share/texmf-dist/tex/latex/lm/omslmr.fd
 INPUT master.aux
 INPUT ./master.out
 INPUT ./master.out
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
@@ -331,6 +336,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr5.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb
+INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy7.pfb

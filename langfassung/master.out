@@ -26,7 +26,7 @@
 \BOOKMARK [2][-]{subsection.3.3}{Fazit}{section.3}% 26
 \BOOKMARK [1][-]{section.4}{Quellen und Hilfen}{}% 27
 \BOOKMARK [1][-]{section.5}{Nach der Abgabe...}{}% 28
-\BOOKMARK [2][-]{subsection.5.1}{Spiralgalaxien}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Spiralgalaxies}{section.5}% 29
 \BOOKMARK [2][-]{subsection.5.2}{Using Object Oriented Programming \(OOP\) techniques}{section.5}% 30
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Initialisation}{subsection.5.2}% 31
 \BOOKMARK [2][-]{subsection.5.3}{Generation of new stars}{section.5}% 32
@@ -43,3 +43,28 @@
 \BOOKMARK [3][-]{subsubsection.5.8.6}{Calculate the forces acting on all the spheres together}{subsection.5.8}% 43
 \BOOKMARK [3][-]{subsubsection.5.8.7}{Benchmarks}{subsection.5.8}% 44
 \BOOKMARK [2][-]{subsection.5.9}{Calculate the Position of a Star after a timestep}{section.5}% 45
+\BOOKMARK [2][-]{subsection.5.10}{Notes}{section.5}% 46
+\BOOKMARK [2][-]{subsection.5.11}{exec.py}{section.5}% 47
+\BOOKMARK [3][-]{subsubsection.5.11.1}{Importing the galaxytools}{subsection.5.11}% 48
+\BOOKMARK [3][-]{subsubsection.5.11.2}{Generate a new galaxy}{subsection.5.11}% 49
+\BOOKMARK [3][-]{subsubsection.5.11.3}{Generate new stars in the galaxy}{subsection.5.11}% 50
+\BOOKMARK [3][-]{subsubsection.5.11.4}{Print the coordinates of every star in the galaxy relative to the origin}{subsection.5.11}% 51
+\BOOKMARK [3][-]{subsubsection.5.11.5}{Calculate the forces acting inbetween all the stars in the galaxy}{subsection.5.11}% 52
+\BOOKMARK [3][-]{subsubsection.5.11.6}{Print the individual forces acting on the stars}{subsection.5.11}% 53
+\BOOKMARK [3][-]{subsubsection.5.11.7}{Generate the coordinates of the positions for the spheres}{subsection.5.11}% 54
+\BOOKMARK [3][-]{subsubsection.5.11.8}{Calculate the forces after 1 time step}{subsection.5.11}% 55
+\BOOKMARK [2][-]{subsection.5.12}{galaxytools.py}{section.5}% 56
+\BOOKMARK [3][-]{subsubsection.5.12.1}{Importing important libraries}{subsection.5.12}% 57
+\BOOKMARK [3][-]{subsubsection.5.12.2}{Generating the new\137galaxy class}{subsection.5.12}% 58
+\BOOKMARK [3][-]{subsubsection.5.12.3}{Initialisation}{subsection.5.12}% 59
+\BOOKMARK [3][-]{subsubsection.5.12.4}{Generating new stars}{subsection.5.12}% 60
+\BOOKMARK [3][-]{subsubsection.5.12.5}{Print out all the star coordinates}{subsection.5.12}% 61
+\BOOKMARK [3][-]{subsubsection.5.12.6}{Calculate the forces acting inbetween two stars}{subsection.5.12}% 62
+\BOOKMARK [3][-]{subsubsection.5.12.7}{Calculate all the forces acting in the galaxy}{subsection.5.12}% 63
+\BOOKMARK [3][-]{subsubsection.5.12.8}{Print the individual forces acting on one star}{subsection.5.12}% 64
+\BOOKMARK [3][-]{subsubsection.5.12.9}{Find out if a star is inside one sphere}{subsection.5.12}% 65
+\BOOKMARK [3][-]{subsubsection.5.12.10}{Find out which star in in which spheres}{subsection.5.12}% 66
+\BOOKMARK [3][-]{subsubsection.5.12.11}{Generate the sphere positions}{subsection.5.12}% 67
+\BOOKMARK [3][-]{subsubsection.5.12.12}{Calculate the forces acting inside the sphere}{subsection.5.12}% 68
+\BOOKMARK [3][-]{subsubsection.5.12.13}{calculate the forces acting in every sphere}{subsection.5.12}% 69
+\BOOKMARK [2][-]{subsection.5.13}{GAN}{section.5}% 70

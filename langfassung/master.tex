@@ -31,7 +31,7 @@
 % ???
 \usepackage{textcomp}
 % \usepackage[onehalfspacing]{setspace}
-% \linespread{0.95}
+\linespread{1}
 
 % Tikz for designing graphics
 \usepackage{tikz}
@@ -42,8 +42,8 @@
 \lstset{ %
   frame=single,	                   % adds a frame around the code
   language=Python,                 % the language of the code
-  numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
-  stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+  % numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+  % stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
 }
 
 % hyperref / hyperlink settings
@@ -104,27 +104,22 @@ urlcolor=black
 \newpage
 
 \section{Einleitung} \label{Einleitung}
-% \input{docs/2_einleitung}
 \include*{docs/2_einleitung}
 \newpage
 
 \section{Hauptteil} \label{Hauptteil}
-% \input{docs/3_hauptteil}
 \include*{docs/3_hauptteil}
 \newpage
 
 \section{Ergebnisse} \label{ergebnisse}
-% \input{docs/4_ergebnisse}
 \include*{docs/4_ergebnisse}
 \newpage
 
 \section{Quellen und Hilfen} \label{quellen}
-% \input{docs/5_quellen}
 \include*{docs/5_quellen}
 \newpage
 
 \section{Nach der Abgabe...} \label{nach_der_abgabe}
-% \input{docs/6_abgabe}
 \include*{docs/6_abgabe}
 
 \end{document}

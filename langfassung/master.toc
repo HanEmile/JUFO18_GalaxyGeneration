@@ -1,54 +1,79 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
-\contentsline {subsection}{\numberline {1.1}Themen}{2}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Motivation}{2}{subsection.1.2}
-\contentsline {section}{\numberline {2}Hauptteil}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Generierung von elliptischen Galaxien}{3}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Das Navarro-Frenk-White Profil}{3}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Random Sampling}{3}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Lookup Tabellen}{5}{subsubsection.2.1.3}
-\contentsline {subsection}{\numberline {2.2}Generierung eines Dunkle-Materie Halos durch Anpassung des NFW-Profils}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Stauchung und Streckung der Galaxie}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Rechenaufwand}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Beschleunigung der Generation}{6}{subsection.2.5}
-\contentsline {subsubsection}{\numberline {2.5.1}Lookuptable}{6}{subsubsection.2.5.1}
-\contentsline {subsubsection}{\numberline {2.5.2}Mehr Rechenleistung!}{7}{subsubsection.2.5.2}
-\contentsline {paragraph}{\nonumberline Amazon Web Services}{7}{section*.5}
-\contentsline {subsubsection}{\numberline {2.5.3}Nichts in der Konsole ausgeben}{7}{subsubsection.2.5.3}
-\contentsline {subsection}{\numberline {2.6}Nutzung eines neuronalen Netzes zum unbeaufsichtigten generieren von Galaxien}{7}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Aufbau des neuronalen Netzes}{7}{subsubsection.2.6.1}
-\contentsline {paragraph}{\nonumberline Neuronen und Synapsen}{8}{section*.6}
-\contentsline {subsection}{\numberline {2.7}Spiralgalaxien}{9}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Das n-K\IeC {\"o}rper Problem}{9}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Unterteilung des Vektorraumes in verschiedene Zellen}{10}{subsubsection.2.7.2}
-\contentsline {subsubsection}{\numberline {2.7.3}Berechnung der wirkenden Kr\IeC {\"a}fte}{10}{subsubsection.2.7.3}
-\contentsline {paragraph}{\nonumberline Masse der Sterne}{10}{section*.7}
-\contentsline {paragraph}{\nonumberline Abstand der Sterne}{10}{section*.8}
-\contentsline {subsection}{\numberline {2.8}Weiteres}{10}{subsection.2.8}
-\contentsline {section}{\numberline {3}Ergebnisse}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Simulations Geschwindigkeit}{11}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Lookuptabellen Geschwindigkeit}{11}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Fazit}{11}{subsection.3.3}
-\contentsline {section}{\numberline {4}Quellen und Hilfen}{13}{section.4}
-\contentsline {paragraph}{\nonumberline Herrn J\IeC {\"o}rg Thar}{13}{section*.11}
-\contentsline {paragraph}{\nonumberline Tim Tugendhat}{13}{section*.12}
-\contentsline {paragraph}{\nonumberline Konstantin Bosbach}{13}{section*.13}
-\contentsline {paragraph}{\nonumberline Tilman Hoffbauer}{13}{section*.14}
-\contentsline {section}{\numberline {5}Nach der Abgabe...}{14}{section.5}
-\contentsline {subsection}{\numberline {5.1}Spiralgalaxien}{14}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Using Object Oriented Programming (OOP) techniques}{14}{subsection.5.2}
-\contentsline {subsubsection}{\numberline {5.2.1}Initialisation}{14}{subsubsection.5.2.1}
-\contentsline {subsection}{\numberline {5.3}Generation of new stars}{14}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Printing all the coordinates}{14}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Calculating the Forces acting between the Stars}{14}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Calculating the forces acting between each star in the galaxy and each other star}{15}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Printing all the individual forces}{15}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Spherical cells}{15}{subsection.5.8}
-\contentsline {subsubsection}{\numberline {5.8.1}Testing if a point is inside or outside a sphere}{15}{subsubsection.5.8.1}
-\contentsline {subsubsection}{\numberline {5.8.2}Testing if a star is inside or outside of a sphere for a whole galaxy}{15}{subsubsection.5.8.2}
-\contentsline {subsubsection}{\numberline {5.8.3}Generate the position of the spheres}{15}{subsubsection.5.8.3}
-\contentsline {subsubsection}{\numberline {5.8.4}The radius of the spheres}{16}{subsubsection.5.8.4}
-\contentsline {subsubsection}{\numberline {5.8.5}Calculate the forces acting on the spheres}{16}{subsubsection.5.8.5}
-\contentsline {subsubsection}{\numberline {5.8.6}Calculate the forces acting on all the spheres together}{17}{subsubsection.5.8.6}
-\contentsline {subsubsection}{\numberline {5.8.7}Benchmarks}{17}{subsubsection.5.8.7}
-\contentsline {subsection}{\numberline {5.9}Calculate the Position of a Star after a timestep}{17}{subsection.5.9}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Themen}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Motivation}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Hauptteil}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Generierung von elliptischen Galaxien}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Das Navarro-Frenk-White Profil}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Random Sampling}{4}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Lookup Tabellen}{6}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Generierung eines Dunkle-Materie Halos durch Anpassung des NFW-Profils}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Stauchung und Streckung der Galaxie}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Rechenaufwand}{7}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Beschleunigung der Generation}{7}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Lookuptable}{7}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Mehr Rechenleistung!}{8}{subsubsection.2.5.2}
+\contentsline {paragraph}{\nonumberline Amazon Web Services}{8}{section*.5}
+\contentsline {subsubsection}{\numberline {2.5.3}Nichts in der Konsole ausgeben}{8}{subsubsection.2.5.3}
+\contentsline {subsection}{\numberline {2.6}Nutzung eines neuronalen Netzes zum unbeaufsichtigten generieren von Galaxien}{8}{subsection.2.6}
+\contentsline {subsubsection}{\numberline {2.6.1}Aufbau des neuronalen Netzes}{8}{subsubsection.2.6.1}
+\contentsline {paragraph}{\nonumberline Neuronen und Synapsen}{9}{section*.6}
+\contentsline {subsection}{\numberline {2.7}Spiralgalaxien}{10}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Das n-K\IeC {\"o}rper Problem}{10}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Unterteilung des Vektorraumes in verschiedene Zellen}{11}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Berechnung der wirkenden Kr\IeC {\"a}fte}{11}{subsubsection.2.7.3}
+\contentsline {paragraph}{\nonumberline Masse der Sterne}{11}{section*.7}
+\contentsline {paragraph}{\nonumberline Abstand der Sterne}{11}{section*.8}
+\contentsline {subsection}{\numberline {2.8}Weiteres}{11}{subsection.2.8}
+\contentsline {section}{\numberline {3}Ergebnisse}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Simulations Geschwindigkeit}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Lookuptabellen Geschwindigkeit}{12}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Fazit}{12}{subsection.3.3}
+\contentsline {section}{\numberline {4}Quellen und Hilfen}{14}{section.4}
+\contentsline {paragraph}{\nonumberline Herrn J\IeC {\"o}rg Thar}{14}{section*.11}
+\contentsline {paragraph}{\nonumberline Tim Tugendhat}{14}{section*.12}
+\contentsline {paragraph}{\nonumberline Konstantin Bosbach}{14}{section*.13}
+\contentsline {paragraph}{\nonumberline Tilman Hoffbauer}{14}{section*.14}
+\contentsline {section}{\numberline {5}Nach der Abgabe...}{15}{section.5}
+\contentsline {subsection}{\numberline {5.1}Spiralgalaxies}{15}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Using Object Oriented Programming (OOP) techniques}{15}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Initialisation}{15}{subsubsection.5.2.1}
+\contentsline {subsection}{\numberline {5.3}Generation of new stars}{15}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Printing all the coordinates}{15}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Calculating the Forces acting between the Stars}{15}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Calculating the forces acting between each star in the galaxy and each other star}{16}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Printing all the individual forces}{16}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Spherical cells}{16}{subsection.5.8}
+\contentsline {subsubsection}{\numberline {5.8.1}Testing if a point is inside or outside a sphere}{16}{subsubsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.2}Testing if a star is inside or outside of a sphere for a whole galaxy}{16}{subsubsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.3}Generate the position of the spheres}{16}{subsubsection.5.8.3}
+\contentsline {subsubsection}{\numberline {5.8.4}The radius of the spheres}{17}{subsubsection.5.8.4}
+\contentsline {subsubsection}{\numberline {5.8.5}Calculate the forces acting on the spheres}{17}{subsubsection.5.8.5}
+\contentsline {subsubsection}{\numberline {5.8.6}Calculate the forces acting on all the spheres together}{18}{subsubsection.5.8.6}
+\contentsline {subsubsection}{\numberline {5.8.7}Benchmarks}{18}{subsubsection.5.8.7}
+\contentsline {subsection}{\numberline {5.9}Calculate the Position of a Star after a timestep}{18}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Notes}{18}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}exec.py}{19}{subsection.5.11}
+\contentsline {subsubsection}{\numberline {5.11.1}Importing the galaxytools}{19}{subsubsection.5.11.1}
+\contentsline {subsubsection}{\numberline {5.11.2}Generate a new galaxy}{19}{subsubsection.5.11.2}
+\contentsline {subsubsection}{\numberline {5.11.3}Generate new stars in the galaxy}{19}{subsubsection.5.11.3}
+\contentsline {subsubsection}{\numberline {5.11.4}Print the coordinates of every star in the galaxy relative to the origin}{19}{subsubsection.5.11.4}
+\contentsline {subsubsection}{\numberline {5.11.5}Calculate the forces acting inbetween all the stars in the galaxy}{19}{subsubsection.5.11.5}
+\contentsline {subsubsection}{\numberline {5.11.6}Print the individual forces acting on the stars}{19}{subsubsection.5.11.6}
+\contentsline {subsubsection}{\numberline {5.11.7}Generate the coordinates of the positions for the spheres}{20}{subsubsection.5.11.7}
+\contentsline {subsubsection}{\numberline {5.11.8}Calculate the forces after 1 time step}{20}{subsubsection.5.11.8}
+\contentsline {subsection}{\numberline {5.12}galaxytools.py}{20}{subsection.5.12}
+\contentsline {subsubsection}{\numberline {5.12.1}Importing important libraries}{20}{subsubsection.5.12.1}
+\contentsline {subsubsection}{\numberline {5.12.2}Generating the new\_galaxy class}{20}{subsubsection.5.12.2}
+\contentsline {subsubsection}{\numberline {5.12.3}Initialisation}{20}{subsubsection.5.12.3}
+\contentsline {subsubsection}{\numberline {5.12.4}Generating new stars}{21}{subsubsection.5.12.4}
+\contentsline {subsubsection}{\numberline {5.12.5}Print out all the star coordinates}{21}{subsubsection.5.12.5}
+\contentsline {subsubsection}{\numberline {5.12.6}Calculate the forces acting inbetween two stars}{22}{subsubsection.5.12.6}
+\contentsline {subsubsection}{\numberline {5.12.7}Calculate all the forces acting in the galaxy}{22}{subsubsection.5.12.7}
+\contentsline {subsubsection}{\numberline {5.12.8}Print the individual forces acting on one star}{23}{subsubsection.5.12.8}
+\contentsline {subsubsection}{\numberline {5.12.9}Find out if a star is inside one sphere}{24}{subsubsection.5.12.9}
+\contentsline {subsubsection}{\numberline {5.12.10}Find out which star in in which spheres}{25}{subsubsection.5.12.10}
+\contentsline {subsubsection}{\numberline {5.12.11}Generate the sphere positions}{26}{subsubsection.5.12.11}
+\contentsline {subsubsection}{\numberline {5.12.12}Calculate the forces acting inside the sphere}{26}{subsubsection.5.12.12}
+\contentsline {subsubsection}{\numberline {5.12.13}calculate the forces acting in every sphere}{26}{subsubsection.5.12.13}
+\contentsline {subsection}{\numberline {5.13}GAN}{27}{subsection.5.13}
