@@ -1,0 +1,33 @@
+\section*{Lookup Tabellen}
+
+Um den Rechenaufwand der beim Berechnen eines Wertes aus dem NFW-Profil
+entsteht zu mindern, wird die Funktion \( \rho(r)\) im Vorhinein
+berechnet und zum Weiterverwenden gespeichert:
+
+\lstset{
+  frame=single,
+  % numbers=left,
+  title=2e8.csv \qquad (\( \sim \) 500 MB)
+}
+
+\begin{lstlisting}
+0, 1477.1586582000994
+1, 1477.0588424006478
+2, 1476.9590343243835
+3, 1476.8592346184294
+4, 1476.7594429495975
+...
+19999995, 0.0028544345590963767
+19999996, 0.0028544345175450904
+19999997, 0.0028544344759938085
+19999998, 0.002854434434442531
+19999999, 0.002854434392891257
+\end{lstlisting}
+
+Möchte man zu einem Wert \( r \) aus der Funktion die Wahrscheinlichkeit
+\( \rho(r) \) erhalten, muss man nur noch aus der Tabelle ablesen.
+\par
+Hier entsteht jedoch ein Problem: Alle Prozesse müssen aus dieser Tabelle die
+Werte auslesen, weshalb sie für jeden Prozess einmal in den Arbeitsspeicher
+geladen werden müssen. Dies lässt sich jedoch durch effizientes Parallelisieren
+umgehen.

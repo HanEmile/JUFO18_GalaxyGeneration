@@ -1,0 +1,53 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Point Cloud}{3}{Point Cloud}{0}}
+\headcommand {\beamer@subsectionpages {3}{2}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Random generation of points}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{Random generation of points}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{4}{Random-Sampling with the NFW-profile}}
+\headcommand {\slideentry {1}{2}{1}{4/4}{Random-Sampling with the NFW-profile}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{2}{2}{5/5}{Random-Sampling with the NFW-profile}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{6}{Saving the stars}}
+\headcommand {\slideentry {1}{3}{1}{6/6}{Saving the stars}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\beamer@sectionpages {3}{6}}
+\headcommand {\beamer@subsectionpages {6}{6}}
+\headcommand {\sectionentry {2}{Forces}{7}{Forces}{0}}
+\headcommand {\beamer@subsectionpages {7}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Generating a grid for subdividing the galaxy into cells}}
+\headcommand {\slideentry {2}{1}{1}{7/7}{Generating a grid for subdividing the galaxy into cells}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{1}{1}{8}{Generating the spheres}}
+\headcommand {\slideentry {2}{1}{2}{8/8}{Generating a grid for subdividing the galaxy into cells}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{1}{2}{9}{Finding out which star is in which spheres}}
+\headcommand {\slideentry {2}{1}{3}{9/9}{Generating a grid for subdividing the galaxy into cells}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionpages {7}{9}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{10}{Calculate the forces acting inside of each sphere}}
+\headcommand {\slideentry {2}{2}{1}{10/10}{Calculate the forces acting inside of each sphere}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@subsubsectionentry {0}{2}{2}{1}{11}{Calculation the Forces acting between one star and the rest}}
+\headcommand {\slideentry {2}{2}{2}{11/11}{Calculate the forces acting inside of each sphere}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\beamer@sectionpages {7}{11}}
+\headcommand {\beamer@subsectionpages {10}{11}}
+\headcommand {\sectionentry {3}{Extrapolation}{12}{Extrapolation}{0}}
+\headcommand {\beamer@subsectionpages {12}{11}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{12}{Calculate where the stars are next}}
+\headcommand {\slideentry {3}{1}{1}{12/12}{Calculate where the stars are next}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {12}{12}}
+\headcommand {\beamer@sectionpages {12}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\def \inserttotalframenumber {12}}

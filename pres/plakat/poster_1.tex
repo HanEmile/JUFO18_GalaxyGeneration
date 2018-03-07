@@ -1,0 +1,58 @@
+% Create a sciposter with a size of 420 x 594 (DIN A 2)
+% \documentclass[a2, plainboxedsections, draft]{sciposter}
+% \documentclass[a2, plainboxedsections]{sciposter}
+\documentclass[a2, plainboxedsections, final]{sciposter}
+
+% Import Packages
+\usepackage{multicol}   % Use multiple columns
+\columnsep=2cm        % Space between columns
+\columnseprule=1pt      % Width of the line inbetween the columns
+
+\usepackage{tikz}       % Nice Graphs
+\usepackage{listings}   % Code
+\usepackage{array}      % Nice tables
+\usepackage{times}      % Times New Roman
+\usepackage{graphicx}   % Insert Images
+\usepackage[english,ngerman]{babel}     % German symbols (ä, ö, ü, ß)
+\usepackage[utf8]{inputenc}             % UTF-8
+
+% title
+\title{Galaxy Generation}               % Title of the Project
+\author{Emile Hansmaennel}              % Name of the author
+\institute{Theodor Fliedner Gymnasium}  % Institute
+\email{emile.hansmaennel@gmail.com}     % Email
+\leftlogo[1.25]{figs/galaxy}            % Logo left of the title
+\rightlogo[1]{figs/logos_box}           % Logo right of the title
+
+% Custom section header style
+\usepackage{sectsty}
+\sectionfont{\color{black}\itshape\selectfont\sectionrule{0pt}{0pt}{-4pt}{1pt}}
+
+% footnote
+\conference{\\ \textbf{Jugend Forscht 2018}, Emile Hansmaennel, Theodor-Fliedner-Gymnasium}
+
+% Rest
+\setmargins[2cm] % Page Margin
+
+\begin{document}
+  \maketitle
+
+  \begin{multicols}{2}
+
+  \input{docs/abstract}
+  \input{docs/hauptziele}
+  \input{docs/nutzen}
+  \input{docs/methoden}
+  \input{docs/random_sampling_nfw}
+  \input{docs/lookup}
+  \input{docs/bigo}
+  \input{docs/wirkende_kraefte}
+  \input{docs/zellen}
+  \input{docs/rechner}
+  \input{docs/gan}
+  \input{docs/ergebnisse}
+  \input{docs/zukunft}
+  \input{docs/danksagung}
+
+  \end{multicols}
+\end{document}

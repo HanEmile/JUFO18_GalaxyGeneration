@@ -1,0 +1,138 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usetheme{Singapore}
+
+\title{Galaxy Generation}
+\subtitle{Jugend Forscht 2018}
+\author{Emile Hansmaennel}
+\institute{Theodor Fliedner Gymnasium}
+\date{\today}
+
+
+\begin{document}
+  \begin{frame}
+    \titlepage
+  \end{frame}
+
+  \begin{frame}
+    \tableofcontents
+  \end{frame}
+
+  \section{Point Cloud}
+  \subsection{Random generation of points}
+
+  \begin{frame}
+    \frametitle{Generating an evenly distributed point-cloud}
+
+    \begin{itemize}
+      \item numpy
+    \end{itemize}
+
+  \end{frame}
+
+  \subsection{Random-Sampling with the NFW-profile}
+
+  \begin{frame}
+    \frametitle{Random Sampling}
+
+    \begin{itemize}
+      \item Generate a random value in a range \( [r_{min};r_{max}] \)
+      \item Find out if the value is bigger or smaller than the NFW value
+    \end{itemize}
+
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{The NFW-Profile}
+
+    \begin{itemize}
+      \item Returns a probability for a star to get generated
+    \end{itemize}
+
+    [insert nfw-distance function image]
+  \end{frame}
+
+  \subsection{Saving the stars}
+
+  \begin{frame}
+    \frametitle{Using the .csv file format}
+
+    \begin{itemize}
+      \item How do I use the csv format?
+    \end{itemize}
+  \end{frame}
+
+  \section{Forces}
+  \subsection{Generating a grid for subdividing the galaxy into cells}
+
+  \begin{frame}
+    \frametitle{Generating a grid for subdividing the galaxy}
+
+    \begin{itemize}
+      \item insert grid image without the spheres
+      \item problem (threshold)
+    \end{itemize}
+  \end{frame}
+
+  \subsubsection{Generating the spheres}
+
+  \begin{frame}
+    \frametitle{Generating the spheres on the vertices of the grid}
+
+    \begin{equation}
+      r = \sqrt{1^2 + 1^2 + 1^2}
+    \end{equation}
+
+    \begin{itemize}
+      \item insert grid image with the spheres
+      \item problem (threshold)
+    \end{itemize}
+
+  \end{frame}
+
+  \subsubsection{Finding out which star is in which spheres}
+
+  \begin{frame}
+    \frametitle{Which Star is in which sphere?}
+
+    \begin{itemize}
+      \item Method for finding this out
+    \end{itemize}
+
+  \end{frame}
+
+  \subsection{Calculate the forces acting inside of each sphere}
+
+  \begin{frame}
+    \frametitle{Forces acting in each sphere}
+
+    \begin{itemize}
+      \item cycle through all the stars in each sphere and calculate the forces
+    \end{itemize}
+  \end{frame}
+
+  \subsubsection{Calculation the Forces acting between one star and the rest}
+
+  \begin{frame}
+    \frametitle{Calculate the forces acting inbetween the individual stars
+    and the other stars}
+
+    \begin{itemize}
+      \item DO EPIC THINGS!
+    \end{itemize}
+  \end{frame}
+
+  \section{Extrapolation}
+  \subsection{Calculate where the stars are next}
+
+  \begin{frame}
+    \frametitle{Where are the stars after n seconds?}
+
+    \begin{itemize}
+      \item Force acting on star for n seconds equals a displacement of m
+    \end{itemize}
+  \end{frame}
+
+\end{document}

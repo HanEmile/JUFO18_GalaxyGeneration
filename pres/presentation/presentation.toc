@@ -1,0 +1,12 @@
+\beamer@sectionintoc {1}{Point Cloud}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Random generation of points}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Random-Sampling with the NFW-profile}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Saving the stars}{6}{0}{1}
+\beamer@sectionintoc {2}{Forces}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Generating a grid for subdividing the galaxy into cells}{7}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{Generating the spheres}{8}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{Finding out which star is in which spheres}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Calculate the forces acting inside of each sphere}{10}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{Calculation the Forces acting between one star and the rest}{11}{0}{2}
+\beamer@sectionintoc {3}{Extrapolation}{12}{0}{3}
+\beamer@subsectionintoc {3}{1}{Calculate where the stars are next}{12}{0}{3}
