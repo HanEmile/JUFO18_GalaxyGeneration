@@ -2,8 +2,8 @@
 
 ### Step 1: Generating a lookuptable
 
-[insert image]
+![insert image](imgs/lookup.png)
 
 ### Step 2: Generate the Coordinates
 
-[insert image]
+![insert image](imgs/coord.png)
