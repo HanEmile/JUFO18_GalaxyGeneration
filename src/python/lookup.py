@@ -7,6 +7,21 @@ import matplotlib.pyplot as plt
 import time
 import os
 import sys
+import argparse
+
+parser = argparse.ArgumentParser(
+    description="Lookuptable generator",
+    usage='./%(prog)s <radius> <path> [-h]',
+)
+parser.add_argument("radius", help="Number of Values to be calculated")
+parser.add_argument("path", help="Path to the location where the lookuptable should be saved", type=str)
+args = parser.parse_args()
+
+# define the radius until where the values should be generated
+radius = int(float(args.radius))
+
+# Define the path to where the data should be stored
+path = 'data/' + str(args.path) + '.big.csv'
 
 # Defining some variables
 sigma = 200
@@ -33,33 +48,22 @@ def phi(x):
         b = np.log(1. + (x / R_s) )
         return a * b
 
-# Defining a list to store the rho-values for plotting
-list_rho = []
-
-# Define the path to where the data should be stored
-path = 'data/' + str(sys.argv[2]) + '.csv'
-
 # get the start time
 start = time.time()
-
-# define the number of stars using system arguments
-stars = int(float(sys.argv[1]))
 
 # open the file where the information should be written to
 with open(path, "a") as data:
 
     # for every star
-    for i in range(0, stars):
+    for i in range(0, radius):
 
         # calculate the rho value
         rho_i = rho(i/10)
 
-        # append the rho value to list_rho for plotting
-        # list_rho.append(rho_i)
-
         # print the distance to the center of the universe and the rho value to
         # the user
-        print(str(i) + ", " + str(rho_i))
+        if ((i % 1000) == 0):
+            print(str(i) + ", " + str(rho_i))
 
         # write the data into the file
         data.write(str(i) + ", " + str(rho_i) + "\n")
@@ -74,13 +78,7 @@ runtime = end - start
 print("\n Runtime: ", end="")
 print(str(runtime) + " seconds")
 
-print(" Stars: " + str(stars))
+print(" Radius: " + str(radius))
 
 print(" Rho-values per second: ", end="")
-print(str(stars / runtime))
-
-# plt.plot(list_rho)
-# plt.xscale('log')
-# plt.yscale('log')
-# plt.grid()
-# plt.show()
+print(str(radius / runtime))

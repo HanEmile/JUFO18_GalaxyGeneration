@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(
 
 # add some arguments to the parser
 parser.add_argument("nos", help="Number of stars that should be generated")
-parser.add_argument("path", help="Path to the file where the coordinates of the stars should be saved")
+parser.add_argument("path", help="Name of the file where the coordinates of the stars should be saved")
 parser.add_argument("-l", dest="lookup", help="Define a custom lookuptable filepath", default="1e7")
 parser.add_argument("-r", dest="range", help="Define a custom range in where the stars should be generated", default="1e7")
 parser.add_argument("-m", dest="cores", help=f"Enable Multithreading with up to {cpu_count} cores", default="2")
@@ -34,7 +34,7 @@ save_path = "stars/" + str(args.path) + ".csv"
 
 # define the path to the lookuptable
 # (The default args.lookup value is 1e7)
-path = "data/" + str(args.lookup) + ".csv"
+path = "data/" + str(args.lookup) + ".big.csv"
 
 # define a varible storing how many cores should be user to compute
 cores = int(args.cores)
@@ -103,20 +103,25 @@ def main():
 
     # calculate how many stars each core should generate
     # BUG: local_nos might be wrong because of int rounding down
-    local_nos = int(nos / cores) * cores
+    local_nos = int(nos / cores)
 
-    print(f"Generating {local_nos} Stars using the {path} lookuptable.")
+    print(f"Generating {local_nos} Stars using the {path} lookuptable utilizing {cores} cores")
 
     # define a base threads and stor it n times in a list
     threads = [Process(target=gen_stars, args=(nos, cores, )) for i in range(0, cores)]
 
     # start the threads in the lsit
-    for thread in threads:
-        thread.start()
+    # for thread in threads:
+    for i in range(0, len(threads)):
+        threads[i].start()
+        print(f"Thread {i} Started!")
+        # thread.start()
 
     # join the threads
-    for thread in threads:
-        thread.join()
+    # for thread in threads:
+    for i in range(0, len(threads)):
+        threads[i].join()
+        # thread.join()
 
     # time stuff
     end = time.time()
